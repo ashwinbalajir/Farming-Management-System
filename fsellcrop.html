@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Crop Selling Page</title>
+	<style >
+		#cmpid{
+			margin-left: 30%;
+		}
+	</style>
+</head>
+<body bgcolor="#76b852">
+	
+	<form action="fsellcrop.php" method="post">
+	<fieldset>
+	<br />
+	<legend>Enter crop details</legend>
+	<div id="cmpid">Crop Id:<input type="text" name="cropid" onkeypress='return event.charCode >= 48 && event.charCode <= 57' maxlength="3" pattern="[0-9]{3}" title="Please Enter minimum three number crop ID"required><br /><br />
+         Supplier Name :<input type="text" name="supname" required><br /><br />
+	Crop Name :<input type="text" name="cropname" required><br /><br />
+	Quantity :<input type="number" name="quantity" min='1' onkeypress='return event.charCode >= 48 && event.charCode <= 57' required><br /><br />
+	Rupees :<input type="number" name="rs" min='1' onkeypress='return event.charCode >= 48 && event.charCode <= 57' required><br /><br />
+
+		
+        <input type="submit" value="submit"></div>
+        </fieldset>
+	</form>
+
+
+</body>
+</html>

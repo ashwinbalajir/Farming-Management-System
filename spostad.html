@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style >
+		#cmpid{
+			margin-left: 30%;
+		}
+	</style>
+</head>
+<body bgcolor="#76b852">
+	
+	<form action="index.php" method="post" >
+	<fieldset>
+	<br />
+	<legend>Enter crop details</legend>
+	<div id="cmpid">Crop Id:<input type="text" name="cropid" minlength="3" maxlength="3" onkeypress='return event.charCode >= 48 && event.charCode <= 57'  required>  <br /><br />
+	crop Name :<input type="text" name="cropname" required><br /><br />
+	
+<br /><br />
+
+	Quantity :<input type="number" name="quantity" min="1" onkeypress='return event.charCode >= 48 && event.charCode <= 57' maxlength="3" required><br />
+
+		
+        <input type="submit" value="submit"></div>
+        </fieldset>
+	</form>
+<script type="text/javascript">
+	
+</script>
+
+</body>
+</html>

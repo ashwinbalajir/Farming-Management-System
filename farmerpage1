@@ -1,0 +1,22 @@
+<html>
+<head>
+<style>
+body {
+    background: url("farmers.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+   
+}
+.class1
+{
+margin:20px;
+
+
+}
+</style>
+</head>
+<body>
+<div class="class1">
+dwewrs
+</div>
+</body>
